@@ -98,6 +98,8 @@ public class SparkHashtags {
 
 		System.out.println("Tweets: " + tweets.count());
 		System.out.println("HashTags: " + top10);
+
+		sc.stop();
 	}
 
 }

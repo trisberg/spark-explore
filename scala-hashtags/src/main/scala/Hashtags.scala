@@ -20,5 +20,6 @@ object Hashtags {
 
     println("Top 10 hashtags:")
     top10.foreach(println)
+    sc.stop()
   }
 }
